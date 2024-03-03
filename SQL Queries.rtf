@@ -1,0 +1,234 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;\red70\green137\blue204;\red24\green24\blue24;
+\red167\green197\blue152;\red194\green126\blue101;\red212\green214\blue154;\red70\green137\blue204;\red24\green24\blue24;
+\red212\green214\blue154;\red167\green197\blue152;\red202\green202\blue202;}
+{\*\expandedcolortbl;;\cssrgb\c80000\c80000\c80000;\cssrgb\c33725\c61176\c83922;\cssrgb\c12157\c12157\c12157;
+\cssrgb\c70980\c80784\c65882;\cssrgb\c80784\c56863\c47059;\cssrgb\c86275\c86275\c66667;\cssrgb\c33725\c61176\c83922;\cssrgb\c12157\c12157\c12157;
+\cssrgb\c86275\c86275\c66667;\cssrgb\c70980\c80784\c65882;\cssrgb\c83137\c83137\c83137;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 INSERT INTO\cf2 \strokec2  [dbo].[Employeedemographics] \cf3 \strokec3 VALUES\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 ( \cf5 \strokec5 1002\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Pam'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Beasley'\cf2 \cb4 \strokec2 , \cf5 \strokec5 30\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Female'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1003\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Dwight'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Schrute'\cf2 \cb4 \strokec2 , \cf5 \strokec5 29\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Male'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1004\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Angela'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Martin'\cf2 \cb4 \strokec2 , \cf5 \strokec5 31\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Female'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1005\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Toby'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Flenderson'\cf2 \cb4 \strokec2 , \cf5 \strokec5 32\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Male'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1006\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Micheal'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Scott'\cf2 \cb4 \strokec2 , \cf5 \strokec5 35\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Male'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1007\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Meredith'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Palmer'\cf2 \cb4 \strokec2 , \cf5 \strokec5 32\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Female'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1008\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Stanley'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Hudson'\cf2 \cb4 \strokec2 , \cf5 \strokec5 38\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Male'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 ( \cf5 \strokec5 1009\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Kevin'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Malone'\cf2 \cb4 \strokec2 , \cf5 \strokec5 31\cf2 \strokec2 , \cf6 \cb4 \strokec6 'Male'\cf2 \cb4 \strokec2 )\cb1 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 create\cf2 \strokec2  \cf3 \strokec3 table\cf2 \strokec2  \cf7 \strokec7 EmployeeSalary\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 (EmployeeID \cf3 \strokec3 int\cf2 \strokec2 ,\cb1 \
+\cb4 JobTitlte \cf3 \strokec3 varchar\cf2 \strokec2  (\cf5 \strokec5 50\cf2 \strokec2 ),\cb1 \
+\cb4 Salary \cf3 \strokec3 int\cf2 \strokec2 )\cb1 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 INSERT INTO\cf2 \strokec2  [dbo].[EmployeeSalary] \cf3 \strokec3 VALUES\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 (\cf5 \strokec5 1001\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Salesman'\cf2 \cb4 \strokec2 , \cf5 \strokec5 45000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1002\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Receptionist'\cf2 \cb4 \strokec2 , \cf5 \strokec5 36000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1003\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Salesman'\cf2 \cb4 \strokec2 , \cf5 \strokec5 63000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1004\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Accountant'\cf2 \cb4 \strokec2 , \cf5 \strokec5 47000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1005\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'HR'\cf2 \cb4 \strokec2 , \cf5 \strokec5 50000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1006\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Regional Manager'\cf2 \cb4 \strokec2 , \cf5 \strokec5 65000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1007\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Supplier relations'\cf2 \cb4 \strokec2 , \cf5 \strokec5 41000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1008\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Salesman'\cf2 \cb4 \strokec2 , \cf5 \strokec5 48000\cf2 \strokec2 ),\cb1 \
+\cb4 (\cf5 \strokec5 1009\cf2 \strokec2 ,\cf6 \cb4 \strokec6 'Accountant'\cf2 \cb4 \strokec2 , \cf5 \strokec5 42000\cf2 \strokec2 )\cb1 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf8 \cb9 \outl0\strokewidth0 SELECT\cf2  FirstName, \cf10 SUBSTRING\cf2 (FirstName, \cf11 1\cf2 ,\cf11 3\cf2 ) \cf8 as\cf2  NickName \cf8 from\cf2  [dbo].[EmployeeErrors]\cf2 \cb1 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 Select\cf2 \strokec2  \cf7 \strokec7 UPPER\cf2 \strokec2 (\cf7 \strokec7 SUBSTRING\cf2 \strokec2 (FirstName, \cf5 \strokec5 1\cf2 \strokec2 ,\cf5 \strokec5 3\cf2 \strokec2 )) \cf3 \strokec3 as\cf2 \strokec2  NickName  \cf3 \strokec3 from\cf2 \strokec2  [dbo].[EmployeeErrors]\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  FirstName, \cf7 \strokec7 LOWER\cf2 \strokec2 (FirstName) \cf3 \strokec3 from\cf2 \strokec2  [dbo].[EmployeeErrors]\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  FirstName, \cf7 \strokec7 UPPER\cf2 \strokec2 (FirstName) \cf3 \strokec3 from\cf2 \strokec2  [dbo].[EmployeeErrors]\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  Erro.FirstName, Demo.Firstname\cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics] \cf3 \strokec3 as\cf2 \strokec2  Demo \cb1 \
+\cf3 \cb4 \strokec3 JOIN\cf2 \strokec2  [dbo].[EmployeeErrors] \cf3 \strokec3 AS\cf2 \strokec2  Erro \cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  Demo.Firstname\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 Erro.FirstName \cb1 \
+\
+\
+\cf3 \cb4 \strokec3 INSERT INTO\cf2 \strokec2  EmployeeErrors \cf3 \strokec3 VALUES\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 (\cf6 \cb4 \strokec6 '1001 '\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Jimbo'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Halbert'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 (\cf6 \cb4 \strokec6 '  1002'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Pamela'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Beasely'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 (\cf6 \cb4 \strokec6 '1005'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'TOby'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Flenderson-Fired'\cf2 \cb4 \strokec2 )\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 FROM\cf2 \strokec2  EmployeeErrors\cb1 \
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  EmployeeID, \cf7 \strokec7 RTRIM\cf2 \strokec2 (EmployeeID) \cf3 \strokec3 AS\cf2 \strokec2  IDTRIM\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  LastName, \cf7 \strokec7 Replace\cf2 \strokec2  (LastName, \cf6 \cb4 \strokec6 '-Fired'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 ''\cf2 \cb4 \strokec2 ) \cf3 \strokec3 as\cf2 \strokec2  LastNameFixed \cf3 \strokec3 from\cf2 \strokec2  [dbo].[EmployeeErrors]\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 INSERT INTO\cf2 \strokec2  EmployeeErrors \cf3 \strokec3 VALUES\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 (\cf6 \cb4 \strokec6 '1001 '\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Jimbo'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'Halbert'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 (\cf6 \cb4 \strokec6 '  1002'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Pamela'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Beasely'\cf2 \cb4 \strokec2 ),\cb1 \
+\cb4 (\cf6 \cb4 \strokec6 '1005'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'TOby'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Flenderson-Fired'\cf2 \cb4 \strokec2 )\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 FROM\cf2 \strokec2  EmployeeErrors\cb1 \
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  EmployeeID, \cf7 \strokec7 RTRIM\cf2 \strokec2 (EmployeeID) \cf3 \strokec3 AS\cf2 \strokec2  IDTRIM\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 INSERT INTO\cf2 \strokec2  dbo##Temp_Employee2\cb1 \
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  JobTitle, \cf7 \strokec7 COUNT\cf2 \strokec2 (JobTitle), \cf7 \strokec7 AVG\cf2 \strokec2 (Age), \cf7 \strokec7 AVG\cf2 \strokec2 (Salary)\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics] \cf3 \strokec3 AS\cf2 \strokec2  DEMO \cb1 \
+\cf3 \cb4 \strokec3 JOIN\cf2 \strokec2  [dbo].[EmployeeSalary] \cf3 \strokec3 AS\cf2 \strokec2  SAL\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  DEMO.EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 SAL.EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 GROUP BY\cf2 \strokec2  JobTitle\cb1 \
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 FROM\cf2 \strokec2  dbo##Temp_Employee2\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 CREATE\cf2 \strokec2  \cf3 \strokec3 TABLE\cf2 \strokec2  \cf7 \strokec7 dbo\cf2 \strokec2 ##Temp_Employee2 (\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 JobTitle \cf3 \strokec3 varchar\cf2 \strokec2 (\cf5 \strokec5 50\cf2 \strokec2 ),\cb1 \
+\cb4 EmployeePerJon \cf3 \strokec3 int\cf2 \strokec2 ,\cb1 \
+\cb4 AvgAge \cf3 \strokec3 int\cf2 \strokec2 ,\cb1 \
+\cb4 AvgSalary \cf3 \strokec3 int\cf2 \cb1 \strokec2 \
+\cb4 )\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 WITH\cf2 \strokec2  CTE_Employee \cf3 \strokec3 as\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 (\cf3 \strokec3 SELECT\cf2 \strokec2  Firstname, Lastname, Gender, Salary,\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \cb4 \strokec7 count\cf2 \strokec2 (Gender) \cf3 \strokec3 over\cf2 \strokec2  (\cf3 \strokec3 partition\cf2 \strokec2  \cf3 \strokec3 by\cf2 \strokec2  gender) \cf3 \strokec3 as\cf2 \strokec2  TotalGender,\cb1 \
+\cf7 \cb4 \strokec7 AVG\cf2 \strokec2 (SALARY) \cf3 \strokec3 OVER\cf2 \strokec2  (\cf3 \strokec3 PARTITION\cf2 \strokec2  \cf3 \strokec3 BY\cf2 \strokec2  SALARY) \cf3 \strokec3 AS\cf2 \strokec2  SALARYAVG\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics] \cf3 \strokec3 AS\cf2 \strokec2  DEMO \cb1 \
+\cf3 \cb4 \strokec3 JOIN\cf2 \strokec2  [dbo].[EmployeeSalary] \cf3 \strokec3 AS\cf2 \strokec2  SAL \cf3 \strokec3 ON\cf2 \strokec2  DEMO.EMPLOYEEID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 SAL.EMPLOYEEID\cb1 \
+\cf3 \cb4 \strokec3 WHERE\cf2 \strokec2  SALARY \cf12 \cb4 \strokec12 >\cf2 \cb4 \strokec2  \cf6 \cb4 \strokec6 '42000'\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 )\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  TotalGender, SALARYAVG \cf3 \strokec3 FROM\cf2 \strokec2  CTE_Employee\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  JobTitle, \cf7 \strokec7 AVG\cf2 \strokec2 (Salary)\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[EmployeeSalary] \cb1 \
+\cf3 \cb4 \strokec3 JOIN\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID \cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2  [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 GROUP BY\cf2 \strokec2  Jobtitle\cb1 \
+\cf3 \cb4 \strokec3 HAVING\cf2 \strokec2  \cf7 \strokec7 AVG\cf2 \strokec2 (SALARY) \cf12 \cb4 \strokec12 >\cf2 \cb4 \strokec2  \cf5 \strokec5 45000\cf2 \cb1 \strokec2 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  \cf7 \strokec7 AVG\cf2 \strokec2 (SALARY) \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  [dbo].[Employeedemographics].EMPLOYEEID, FIRSTNAME, AGE\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 UNION\cf2 \cb1 \strokec2 \
+\cf3 \cb4 \strokec3 SELECT\cf2 \strokec2  [dbo].[EmployeeSalary].EMPLOYEEID, JOBTITLE, SALARY\cb1 \
+\cf3 \cb4 \strokec3 FROM\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  Jobtitle, \cf7 \strokec7 AVG\cf2 \strokec2 (Salary) \cf3 \strokec3 as\cf2 \strokec2  SalaryAverage \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 WHERE\cf2 \strokec2  JobTitle \cf3 \strokec3 IN\cf2 \strokec2  (\cf6 \cb4 \strokec6 'Salesman'\cf2 \cb4 \strokec2 ,\cf6 \cb4 \strokec6 'Accountant'\cf2 \cb4 \strokec2 ) \cb1 \
+\cf3 \cb4 \strokec3 GROUP BY\cf2 \strokec2  JobTitle\cb1 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  SalaryAverage \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  Jobtitle, \cf7 \strokec7 AVG\cf2 \strokec2 (Salary) \cf3 \strokec3 as\cf2 \strokec2  SalaryAverage \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 GROUP BY\cf2 \strokec2  JobTitle\cb1 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  SalaryAverage \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  Jobtitle, Salary \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 WHERE\cf2 \strokec2  JOBTITLE\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2  \cf6 \cb4 \strokec6 'SALESMAN'\cf2 \cb1 \strokec2 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  [dbo].[EmployeeSalary].SALARY \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID, Firstname, Lastname, Salary \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\cf3 \cb4 \strokec3 WHERE\cf2 \strokec2  FIRSTNAME \cf12 \cb4 \strokec12 <>\cf2 \cb4 \strokec2  \cf6 \cb4 \strokec6 'JIM'\cf2 \cb1 \strokec2 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  [dbo].[EmployeeSalary].SALARY \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID, Firstname, Lastname, Salary \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID, Firstname, Lastname, Salary \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 INNER JOIN\cf2 \strokec2  [dbo].[EmployeeSalary]\cb1 \
+\cf3 \cb4 \strokec3 ON\cf2 \strokec2  [dbo].[Employeedemographics].EmployeeID\cf12 \cb4 \strokec12 =\cf2 \cb4 \strokec2 [dbo].[EmployeeSalary].EmployeeID\cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cf3 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 order by\cf2 \strokec2  \cf5 \strokec5 4\cf2 \strokec2  \cf3 \strokec3 DESC\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\
+\cf3 \cb4 \strokec3 Select\cf2 \strokec2  GENDER, AGE\cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 ORDER BY\cf2 \strokec2  AGE \cf3 \strokec3 DESC\cf2 \strokec2  , GENDER \cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\
+\cf3 \cb4 \strokec3 Select\cf2 \strokec2  GENDER, \cf7 \strokec7 COUNT\cf2 \strokec2 (GENDER) \cf3 \strokec3 as\cf2 \strokec2  GENDERCOUNT\cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 WHERE\cf2 \strokec2  AGE \cf12 \cb4 \strokec12 >\cf2 \cb4 \strokec2  \cf5 \strokec5 30\cf2 \cb1 \strokec2 \
+\cf3 \cb4 \strokec3 GROUP BY\cf2 \strokec2  GENDER\cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 where\cf2 \strokec2  LastName \cf3 \strokec3 IN\cf2 \strokec2  (\cf6 \cb4 \strokec6 'martin'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'schrute'\cf2 \cb4 \strokec2 )\cb1 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 where\cf2 \strokec2  Age \cf12 \cb4 \strokec12 >=\cf2 \cb4 \strokec2  \cf5 \strokec5 30\cf2 \strokec2  \cf3 \strokec3 and\cf2 \strokec2  Gender\cf12 \cb4 \strokec12 =\cf6 \cb4 \strokec6 'Male'\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 where\cf2 \strokec2  Age \cf12 \cb4 \strokec12 >\cf2 \cb4 \strokec2  \cf5 \strokec5 30\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 where\cf2 \strokec2  FirstName \cf12 \cb4 \strokec12 <>\cf6 \cb4 \strokec6 'Jim'\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 select\cf2 \strokec2  \cf12 \cb4 \strokec12 *\cf2 \cb4 \strokec2  \cb1 \
+\cf3 \cb4 \strokec3 from\cf2 \strokec2  [dbo].[Employeedemographics]\cb1 \
+\cf3 \cb4 \strokec3 where\cf2 \strokec2  FirstName\cf12 \cb4 \strokec12 =\cf6 \cb4 \strokec6 'Jim'\cf2 \cb1 \strokec2 \
+\
+\cf3 \cb4 \strokec3 EXEC\cf2 \strokec2  sp_rename \cf6 \cb4 \strokec6 '[dbo].[EmployeeSalary].JobTitlte'\cf2 \cb4 \strokec2 , \cf6 \cb4 \strokec6 'JobTitle'\cf2 \cb1 \strokec2 \
+\
+\
+}
